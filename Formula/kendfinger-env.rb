@@ -131,4 +131,12 @@ class KendfingerEnv < Formula
   depends_on "zip"
   depends_on "zsh"
   depends_on "zsh-completions"
+
+  def install
+    libexec.install Dir["*"]
+  end
+
+  test do
+    assert_true File.exist?("#{libexec}/staple.txt")
+  end
 end
