@@ -91,7 +91,6 @@ class KendfingerEnv < Formula
   depends_on "ninja"
   depends_on "nmap"
   depends_on "node"
-  depends_on "npm"
   depends_on "oil"
   depends_on "openjdk"
   depends_on "openssh"
