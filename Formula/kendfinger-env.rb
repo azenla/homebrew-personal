@@ -2,9 +2,9 @@ class KendfingerEnv < Formula
   desc "Kenneth Endfinger's Standard Environment"
   homepage "https://github.com/kendfinger/homebrew-personal"
 
-  url "file:///dev/null"
-  version "0.0.1"
-  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  url "https://github.com/kendfinger/homebrew-personal/raw/main/staple.txt"
+  version "1"
+  sha256 "11734406f097dbe39bbb369e7bbd270e3a2eab48b79e0de1cc16ab190ba521f9"
   revision 1
 
   depends_on "archey"
