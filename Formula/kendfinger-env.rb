@@ -1,5 +1,5 @@
-class MetaMacosEnvironment < Formula
-  desc "Kenneth Endfinger's Standard macOS meta-package"
+class KendfingerEnv < Formula
+  desc "Kenneth Endfinger's Standard Environment"
   homepage "https://github.com/kendfinger/homebrew-personal"
 
   url "file:///dev/null"
