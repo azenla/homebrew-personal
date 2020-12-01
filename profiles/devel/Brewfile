@@ -9,6 +9,41 @@ tap "dart-lang/dart"
 tap "kendfinger/personal"
 tap "kendfinger/tools"
 
+# Bundle Tools
+brew "mas"
+
+# Casks
+cask "adoptopenjdk"
+cask "alacritty"
+cask "authy"
+cask "firefox"
+cask "font-hack"
+cask "font-hack-nerd-font"
+cask "font-noto-color-emoji"
+cask "font-noto-emoji"
+cask "font-noto-nerd-font"
+cask "font-source-code-pro"
+cask "google-chrome"
+cask "google-cloud-sdk"
+cask "iterm2"
+cask "jetbrains-toolbox"
+cask "microsoft-edge"
+cask "microsoft-teams"
+cask "multimc"
+cask "osxfuse"
+cask "signal"
+cask "slack"
+cask "telegram"
+cask "transmission"
+cask "visual-studio-code"
+cask "vlc"
+
+# Mac App Store
+mas "AdGuard for Safari", id: 1440147259
+mas "LastPass", id: 926036361
+mas "Magnet", id: 441258766
+# mas "Xcode", id:
+
 # Core Tools
 brew "coreutils"
 brew "curl"
@@ -27,8 +62,9 @@ brew "zip"
 
 # Containers
 brew "ctop"
+brew "docker"
 brew "docker-machine"
-brew "docker-machine-parallels"
+brew "hyperkit"
 
 # Kubernetes
 brew "helm"
@@ -179,25 +215,3 @@ brew "duply"
 # Virtualization
 brew "qemu"
 brew "virtual"
-
-# Casks
-cask "alacritty"
-cask "firefox"
-cask "font-hack"
-cask "font-hack-nerd-font"
-cask "font-noto-color-emoji"
-cask "font-noto-emoji"
-cask "font-noto-nerd-font"
-cask "font-source-code-pro"
-cask "google-chrome"
-cask "google-cloud-sdk"
-cask "jetbrains-toolbox"
-cask "lastpass"
-cask "microsoft-edge"
-cask "multimc"
-cask "osxfuse"
-cask "signal"
-cask "telegram"
-cask "transmission"
-cask "visual-studio-code"
-cask "vlc"
